@@ -14,7 +14,7 @@ npm start
 ```
 The console should return that the server is now online and is listening to the desired port.
 ## Usage:
-There are 3 API endpoints that perform basic Create and Read operations.
+There are 3 API endpoints that perform basic Create and Read operations.<br/>
 
 **There are 2 GET request command:**
 ```
@@ -25,7 +25,7 @@ This command will return all the hackers currently in the database.
 curl --request GET http://localhost:302/hackers/2
 ```
 This command will return a single hacker with the **id: 2** from the database.
-These 2 GET request will also console.log errors if the hacker doesn't exist in the database and will console.log the returned hacker in JSON format.
+These 2 GET request will also console.log errors if the hacker doesn't exist in the database and will console.log the returned hacker in JSON format if they exist.<br/>
 
 **There are 1 POST request command:**
 ```
